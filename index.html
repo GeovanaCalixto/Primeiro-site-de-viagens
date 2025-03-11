@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos sonhos</title>
+</head>
+<body style="margin-left: 50px; margin-right: 50px; margin-top: 0; margin-bottom: 0;">
+    <header>
+        <nav style="margin-left: -13px">
+            <ul>
+                <li>Pacotes</li>
+                <li>Taxas</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+        <h1 style="margin:0px;">Venha realizar a viagem dos seus sonhos</h1>
+    </header>
+    <section>
+        <h2 style="margin-top:0px;">Conheça nossos pacotes</h2>
+        <p style="font-size:18px;">
+           Aproveite nossas promoções imperdiveis para viagens, cada detalhe importa e sua satisfação é oque nos move! 
+           <br><br>
+           <a href="https://www.lipsum.com/feed/html">Link</a>
+           <hr>
+        </p>
+        <figure style="margin-left: -4px">
+        <img src="Imagens/Nossos Pacotes/Gramado.jpg"alt=" Imagem da Cidade de Gramado, rua iluminada">
+        <figcaption>Gramado</figcaption>
+        </figure>
+        <figure style="margin-left: -4px">
+            <img src="Imagens/Nossos Pacotes/Porto Seguro.png"alt="Imagem cartão postal de Porto Seguro">
+            <figcaption>Porto Seguro</figcaption>
+        </figure>
+        <figure style="margin-left: -4px">
+            <img src="Imagens/Nossos Pacotes/Rio de Janeiro.png"alt="Imagem do Cristo Redentor visto de cima">
+            <figcaption>Rio de Janeiro</figcaption>
+        </figure>
+    </section>
+    <video controls width="1905px">
+        <source src="Videos/Video balões.mp4" type="video/mp4">
+        <source src="Videos/Video MOV.mov" type="video/mov">
+        Seu navegador não suporta o formato do video. <a href="Videos/Video balões.mp4">Clique aqui para baixar</a>
+    </video>
+    <br><br>
+    <section>
+        <h2 style="margin-bottom:0px;" style="font-size:19px;">Taxas e Serviços</h2>
+        <p style="margin-top:1px; font-size: large;">Conheça nossas taxas para serviços</p>
+        
+        <table style="width:1032px; height:200px;" border>
+            <thead>
+            <tr>
+                <th>
+                    Serviço
+                </th>
+                <th>
+                    Valor
+                </th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <td style="font-size: large;">
+                    Reserva de Hotel
+                </td>
+                <td style="font-size: large;">
+                    R$150,00
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: large;">
+                    Compra de Passagens
+                </td>
+                <td style="font-size: large;">
+                    R$100,00
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size: large;">
+                    Aluguel de Carros
+                </td>
+                <td style="font-size: large;">
+                    R$50,00
+                </td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Orçamento</h2>
+
+        <fieldset>
+        <form method="GET" action="">
+        <label>Nome</label><br>
+        <input type="text" name="nome"><br><br>
+
+        <label>Email</label><br>
+        <input type="email" required name="email"><br><br>
+
+        <label>Data de ida</label><br>
+        <input type="date" required name="datadeIda"><br><br>
+
+        <labe>Data de volta</labe><br>
+        <input type="date" required name="datadeVolta"><br><br>
+
+        <label>Quantidade pessoas, considere seu pet </label><br>
+        <input type="number" required name="qtdPessoas"><br><br>
+    
+        <label>Quais serviços deseja contratar?</label>
+        <fieldset style="width:1000px; height:100px;">
+       <br><input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+       <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+       <br><input type="checkbox" name="veiculos"   value="Veículo">Aluguel de veículo <br><br>
+       </fieldset>
+      <br>
+    
+      <fieldset style="width:1000px; height:100px;">
+      <legend>Escolha a forma de pagamento</legend>
+      <label>
+      <input type="radio" name="formaPagamento" value="Cartão de Crédito">Cartão de Crédito
+      </label>
+      <label>
+        <br><input type="radio" name="formaPagamento" value="Pix">Pix
+      </label>
+      <label>
+        <br><input type="radio" name="formaPagamento" value="Débito">Débito <br><br>
+      </label>
+      </fieldset>
+      <br>
+
+      <legend>Prazos de pagamentos</legend>
+      <select name="prazoPagamento">
+         <option value="aVista">Á vista</option>
+         <option value="5x" selected >5x sem juros no cartão de crédito</option>
+         <option value="10x">10x com juros no cartão de crédito </option>
+        </select>
+        <br><br>
+
+        <label>Comente aqui oque gostaria de acrescentar</label><br>
+        <textarea rows="10" name="comentário" style="width:1020px; height:200px;"></textarea><br><br>
+        
+        </fieldset><br>
+        <button>Enviar</button>
+
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por Geovana Costa</p>
+    </footer>
+</body>
+</html>
