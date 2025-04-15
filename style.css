@@ -1,0 +1,172 @@
+body{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-top: 0;
+padding: 0;
+background-color: #ffe8d3;
+}
+
+
+
+section{
+ padding: 1rem 4rem; /*4rem em cima/baixo nas laterais*/
+}
+
+.section-azul1{
+    background-color: #00bbc2;
+}
+
+.minha-navbar{
+    background-color: #00bbc2;
+    height: 90px;
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.bottom-navbar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffe8d3;
+    border-top: 1px solid #494554;
+    z-index: 
+}
+
+.navbar-nav .nav-link {
+    color: #494554;
+    background-color: #00bbc2;
+}
+
+
+.navbar-nav .dropdown-menu {
+ color: #494554;
+ background-color: #00bbc2;
+}
+
+.navbar-nav .nav-link.active{
+    color: #494554  !important;
+}
+
+.navbar-brand{
+    color: #494554;
+    display: flex;
+    align-items: center; 
+}
+
+.navbar-brand img.logotipo{
+    max-height: 100px;
+    height: auto;
+    width: auto;
+}
+
+header{
+background-color: #ffe8d3;
+width: 100%;
+text-align: center;
+}
+
+
+
+h1{
+    color:#00bbc2 ;
+    font-size:4rem auto;
+    padding: 60px;
+    text-align: center;
+}
+
+
+
+
+h2{
+    color: #494554;
+    font-size: 40px auto;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 20px 0;  /*Reduzi o padding para alinhar melhor*/
+}
+
+
+p{
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #494554;
+    font-size:30px auto;
+}
+
+
+figcaption{
+    color: #494554;
+}
+
+
+a{
+     color: #00bbc2;
+}
+    
+form,input,select,textarea{
+    color: #494554;
+}
+
+
+
+h2{
+    margin-bottom: 0px;
+    padding: 0;
+}
+ 
+p{
+    margin-top: 0px;
+}
+
+
+.row figure img{
+    width: 500px ;
+    height: auto;
+    border-radius: 2px;
+}
+
+section .pacotes{
+    background-color: #ffe8d3;
+}
+
+
+
+
+table{
+    background-color: #00bbc2;
+    color: #494554;
+    font-size: 20px auto;
+    margin-left: 0;
+    width: 70%;
+    border: 1px solid #494554;
+    border-radius: 10px;
+    border-collapse: separate;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+
+}
+
+.section-bege3{
+    font-size: auto;
+}
+
+
+
+
+
+th{
+    border-radius: 5px;
+    background-color: #ffe8d3;
+}
+
+.footer-bege1 .autoria{
+    max-height: 20px auto;
+    font-size: 20px;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
