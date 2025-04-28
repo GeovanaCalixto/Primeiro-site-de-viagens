@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos sonhos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg minha-navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <picture>
+                <source srcset="Imagens/Logotipo/logo-site-vscode.svg" type="image/svg+xml">
+                <img class="logotipo" src="Imagens/Logotipo/logo-site-vscode.png" alt="imagem do logotipo">
+              </picture>
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#pacotes">Pacotes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#serviços">Taxas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contato
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Email</a></li>
+                      <li><a class="dropdown-item" href="#">Telefone e Whatsapp</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Faça seu pedido agora</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="checkout.html"><i class="bi bi-bag-heart"></i></a>
+                    </li>
+                  
+        
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <h1>Venha realizar a viagem dos seus sonhos</h1>
+        <p class="chamadoinicial">Conheça nossos pacotes de viagens personalizados e promoções imperdiveis</p>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagens/Destaque/imagem rio de janeiro.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Imagens/Nossos Pacotes/Porto Seguro.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Imagens/Nossos Pacotes/Gramado.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+    <br><br>
+
+    <section class="sectionpacotesazul" id="pacotes">
+    <h2 class="azulh2">Nossos Pacotes disponíveis</h2>
+    <p class="paragrafoazul">Conheça nossas promoções</p>
+
+    <div class="cards-container">
+
+    <div class="card" style="width: 20rem;">
+      <img src="Imagens/Nossos Pacotes/Gramado.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Gramado</h5>
+        <p class="card-text">Uma cidade acolhedora e romântica, perfeita para toda a família ou para uma viagem a dois.</p>
+        <h2 class="valor"> R$5.000,00</h2>
+        <a class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal">Quero este pacote</a>
+      </div>
+    </div>
+
+
+      <div class="card" style="width: 20rem;">
+        <img src="Imagens/Nossos Pacotes/Porto Seguro.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Porto Seguro</h5>
+          <p class="card-text">Como o próprio nome já diz, é um lugar acolhedor, cheio de história, cultura e belezas naturais</p>
+          <h2 class="valor"> R$3.000,00</h2>
+          <a class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal">Quero este pacote</a>        </div>
+      </div>
+
+        <div class="card" style="width: 20rem;">
+          <img src="Imagens/Nossos Pacotes/Rio de Janeiro.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rio de Janeiro</h5>
+            <p class="card-text">Ainda não conhece o Cristo Redentor? Então embarque nessa aventura e descubra o Rio de Janeiro!</p>
+            <h2 class="valor"> R$7.000,00</h2>
+            <a class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#exampleModal">Quero este pacote</a>
+          </div>
+    </div>
+    </div>
+    </section>
+
+    <section class="section-bege1" id="serviços">
+        <h2>Serviços e Valores</h2>
+        <p >Conheça nossas taxas para serviços</p>
+        
+        <div class="table-responsive">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>
+                    Serviço
+                </th>
+                <th>
+                    Valor
+                </th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <td>
+                    Reserva de Hotel
+                </td>
+                <td>
+                    R$150,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Compra de Passagens
+                </td>
+                <td>
+                    R$100,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Aluguel de Carros
+                </td>
+                <td>
+                    R$50,00
+                </td>
+            </tr>
+          </tbody>
+        </table>
+     </div>
+
+
+    </section>
+    <section class="section-bege3">
+        <h2>Orçamento</h2>
+        <br> <br>
+
+        <div>
+        <form method="GET" action="">
+        <label>Nome</label><br>
+        <input type="text" name="nome"><br><br>
+       </div>
+
+        <div class="col-md-6 mb-3">
+        <label>Email</label><br>
+        <input type="email" required name="email"><br><br>
+      </div>
+
+        <div class="col-md-6 mb-3">
+        <label>Data de ida</label><br>
+        <input type="date" required name="datadeIda"><br><br>
+      </div>
+
+        <div class="col-md-6 mb-3">
+        <label>Data de volta</label><br>
+        <input type="date" required name="datadeVolta"><br><br>
+        </div>
+
+        <div class="mb-3">
+        <label>Quantidade pessoas, considere seu pet </label><br>
+        <input type="number" required name="qtdPessoas"><br><br>
+        <fieldset>
+        </div>
+    
+        <fieldset class="mb-3">
+        <legend>Quais serviços deseja contratar?</legend>
+
+       <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="passagens" value="Passagens" id="checkPassagens">
+        <label class="form-check-label" for="checkPassagens">Compra de passagens</label> 
+       </div>      
+
+       <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="hospedagem" value="Hospedagem" id="checkHospedagem">
+        <label class="form-check-label" for="checkHospedagem">Reserva de hospedagem</label>
+      </div>
+
+       <div class="form-check">
+       <input class="form-check-input" type="checkbox" name="veiculos" value="Veículo" id="checkVeiculos">
+       <label class="form-check-label" for="checkVeiculos">Aluguel de veículo</label>
+       </div>
+      </fieldset>
+    
+      <fieldset>
+      <legend>Escolha a forma de pagamento</legend>
+      <label>
+      <input type="radio" name="formaPagamento" value="Cartão de Crédito">Cartão de Crédito
+      </label>
+      <label>
+        <br><input type="radio" name="formaPagamento" value="Pix">Pix
+      </label>
+      <label>
+        <br><input type="radio" name="formaPagamento" value="Débito">Débito
+      </label>
+      </fieldset>
+      <br>
+
+      <legend>Prazos de pagamentos</legend>
+      <select name="prazoPagamento">
+         <option value="aVista">Á vista</option>
+         <option value="5x" selected >5x sem juros no cartão de crédito</option>
+         <option value="10x">10x com juros no cartão de crédito </option>
+        </select>
+        <br><br>
+
+        <label>Comente aqui o que gostaria de acrescentar</label><br>
+        <textarea class="form-control" rows="10" name="comentário"></textarea>
+        
+        </fieldset><br>
+        <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+    <footer class="footer-bege1">
+        <p class="autoria">Desenvolvido por Geovana Costa</p>
+    </footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Suas Compras</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      Produto adicionado ao carrinho!
+      </div>
+      <div class="modal-footer">
+        <button type="#" class="btn btn-secondary" data-bs-dismiss="modal">Continuar Comprando</button>
+        <a href="checkout.html" class="btn btn-primary">Finalizar Compra</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</html>
